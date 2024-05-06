@@ -49,10 +49,10 @@ frontend https
 backend web-servers
         balance roundrobin
         option forwardfor
-        server 190329-web-01 34.207.211.122:80 check
-        server 190329-web-02 100.25.143.0:80 check
+        server 530429-web-01 18.209.223.38:80 check
+        server 530429-web-02 100.26.234.223:80 check
 
 backend web-backend
         balance roundrobin
-        server 190329-web-01 34.207.211.122:80 check
-        server 190329-web-02 100.25.143.0:80 check
+        server 530429-web-01 18.209.223.38:80 check
+        server 530429-web-02 100.26.234.223:80 check
