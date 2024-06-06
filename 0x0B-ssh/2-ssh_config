@@ -1,9 +1,5 @@
-# This is the ssh client system-wide configuration file.
-# This file provides defaults for users, and the values can be changed
-# in per-user configuration files or on the command line.
-
-
 Include /etc/ssh/ssh_config.d/*.conf
+
 Host *
 #   ForwardAgent no
 #   ForwardX11 no
